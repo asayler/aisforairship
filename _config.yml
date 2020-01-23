@@ -19,10 +19,10 @@ locale                   : "en-US"
 title                    : "A is for Airship"
 title_separator          : "-"
 subtitle                 : "An Engineer's Blog"
-name                     : "A is for Airship"
+name                     : "Andy Sayler"
 description              : "An Engineer's Blog"
 url                      : "https://aisforairship.com"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : # "/"
 repository               : asayler/aisforairship
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -31,38 +31,6 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey                :
-  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -108,29 +76,20 @@ analytics:
 # Site Author
 author:
   name             : "Andy Sayler"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/andy.png
   bio              : "Human (Probably)"
   location         : "Boulder, CO"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.andysayler.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AndySayler"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/asayler"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/asayler"
 
 # Site Footer
 footer:
@@ -290,6 +249,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
