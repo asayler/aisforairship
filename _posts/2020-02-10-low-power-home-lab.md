@@ -77,19 +77,42 @@ $55](https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/).
 
 For the test, the Pi was running the *32-bit* version of
 [Raspian](https://www.raspbian.org/) from the [07/10/19
-image](http://downloads.raspberrypi.org/raspbian/release_notes.txt). There
-are a number of ways to power the Pi, most commonly a USB C
-connection. That said, for this test, the Pi was powered via the
-[official PoE hat](https://www.raspberrypi.org/products/poe-hat/)
-connected to an 802.3af PoE switch from
-[Ubiquiti](https://www.ui.com/).
+image](http://downloads.raspberrypi.org/raspbian/release_notes.txt)
+using the 4.19.66-v7l Linux kernel. There are a number of ways to
+power the Pi, most commonly a USB C connection. For this test, the Pi
+was powered via the [official PoE
+hat](https://www.raspberrypi.org/products/poe-hat/) connected to an
+[802.3af](https://en.wikipedia.org/wiki/Power_over_Ethernet) PoE
+switch from [Ubiquiti](https://www.ui.com/).
 
 Supermicro A1SRi-2758F-O
 ------------------------
 
-The Supermicro [A1SRi-2758F-O] is mini-ITX motherboard designed
-networking applications (e.g. router, middlebox, etc). It features an
-Intel [Atom C2758] embedded CPU, which is a, 8-core, 2.40 GHz
-low-power Intel CPU released in 2013.
+The Supermicro [A1SRi-2758F-O] is
+[mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard
+designed for networking applications (e.g. router, middlebox, etc). It
+features an embedded Intel [Atom C2758] CPU, which is an 8-core, 2.40
+GHz low-power (20W TDP) x86 processor released in 2013. The board
+retailed for around $300 in 2014 when I purchased it.
 
+
+For the test, this board was coupled with 16GB (2x 8GB) of ECC RAM, a
+a 750W [80 Plus Gold](https://en.wikipedia.org/wiki/80_Plus) (87%+
+efficiency) power supply, and a single SSD. The tests were run on a
+fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25 Linux kernel.
+
+Supermicro A2SDi-TP8F
+---------------------
+
+The Supermicro [A2SDi-TP8F] is another mini-ITX motherboard. It's the
+generational successor to the A1SRi-2758F noted above. It includes an
+embedded x86 Intel [Atom C3858] CPU, which includes 12-cores running
+at 2.00 GHz with a 25W TDP. The C3858 was released in 2017 as one of
+the successors to the C2XXX line. This board retails for about $750
+today.
+
+For the test, this board was coupled with 16GB (2x 8GB) of ECC RAM,
+and the same 750W power supply and SSD as the A1SRi-2758F. The tests
+were run on a fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25
+Linux kernel.
 
