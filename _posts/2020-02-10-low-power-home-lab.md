@@ -63,8 +63,8 @@ full list of tested components includes:
 
 Details on each of the candidates are included below.
 
-Raspberry Pi 4 Model B
-----------------------
+RPi 4 Model B (BCM2711)
+-----------------------
 
 The [Raspberry Pi 4 Model
 B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)
@@ -85,8 +85,8 @@ hat](https://www.raspberrypi.org/products/poe-hat/) connected to an
 [802.3af](https://en.wikipedia.org/wiki/Power_over_Ethernet) PoE
 switch from [Ubiquiti](https://www.ui.com/).
 
-Supermicro A1SRi-2758F-O (Atom C2758)
--------------------------------------
+A1SRi-2758F-O (Atom C2758)
+--------------------------
 
 The Supermicro [A1SRi-2758F-O] is
 [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard
@@ -102,8 +102,8 @@ a 750W [80 Plus Gold](https://en.wikipedia.org/wiki/80_Plus) (87%+
 efficiency) power supply, and a single SSD. The tests were run on a
 fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25 Linux kernel.
 
-Supermicro A2SDi-TP8F (Atom C3858)
-----------------------------------
+A2SDi-TP8F (Atom C3858)
+-----------------------
 
 The Supermicro [A2SDi-TP8F] is another mini-ITX motherboard. It's the
 generational successor to the A1SRi-2758F noted above. It includes an
@@ -117,8 +117,8 @@ and the same 750W power supply and SSD as the A1SRi-2758F. The tests
 were run on a fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25
 Linux kernel.
 
-Supermicro X9SCM-F (Xeon E3-1240v2)
------------------------------------
+X9SCM-F (Xeon E3-1240v2)
+------------------------
 
 The Supermicro [X9SCM-F] is a micro-ATX motherboard with an LGA 1155
 CPU socket. For this test it was paired with a circa-2012, 4-core,
@@ -135,8 +135,8 @@ Linux kernel.
 
 [EoLed]: https://en.wikipedia.org/wiki/End-of-life_(product)
 
-Supermicro X10SLH-F (Xeon E3-1246v3)
-------------------------------------
+X10SLH-F (Xeon E3-1246v3)
+-------------------------
 
 The [X10SLH-F] is another micro-ATX motherboard with an LGA 1150 CPU
 socket. For this test it was paired with a circa-2014, 4-core,
@@ -148,8 +148,8 @@ This setup was coupled with 32GB (2x16GB) of ECC RAM and the same
 power supply and SSD as the A1SRi-2758F. The tests were run on a fresh
 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25 Linux kernel.
 
-Supermicro X10SDV-TLN4F (Xeon D-1541)
--------------------------------------
+X10SDV-TLN4F (Xeon D-1541)
+--------------------------
 
 Look. We get it. Supermicro doesn't have very interesting [naming
 schemes](https://www.supermicro.com/products/Product_Naming_Convention/Naming_MBD_Intel_UP.cfm).
@@ -162,8 +162,8 @@ This setup used a similar 32GB (2x16GB) RAM configuration and the same
 PSU and SSD setup as previous systems. It also was tested using the
 same Ubuntu 18.04.3 install with the 5.0.0-25 kernel.
 
-Supermicro M11SDV-8CT-LN4F (EPYC 3201)
---------------------------------------
+M11SDV-8CT-LN4F (EPYC 3201)
+---------------------------
 
 Other than the Raspberry Pi, the [M11SDV-8CT-LN4F] represents the only
 non-Intel offering in this lineup. Instead, the M11SDV-8CT-LN4F is a
@@ -175,3 +175,10 @@ This setup was paired with 32GB (2x 16GB) of ECC RAM and the same PSU
 and SSD as previous systems. It was tested using the same Ubuntu and
 kernel config as previous systems as well.
 
+
+The Tests
+=========
+
+
+The Results
+===========
