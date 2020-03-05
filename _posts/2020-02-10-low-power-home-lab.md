@@ -79,21 +79,22 @@ For the test, the Pi was running the *32-bit* version of
 [Raspian](https://www.raspbian.org/) from the [07/10/19
 image](http://downloads.raspberrypi.org/raspbian/release_notes.txt)
 using the 4.19.66-v7l Linux kernel. There are a number of ways to
-power the Pi, most commonly a USB C connection. For this test, the Pi
+power the Pi, most commonly a USB C connection. The Pi
 was powered via the [official PoE
 hat](https://www.raspberrypi.org/products/poe-hat/) connected to an
 [802.3af](https://en.wikipedia.org/wiki/Power_over_Ethernet) PoE
 switch from [Ubiquiti](https://www.ui.com/).
 
-Supermicro A1SRi-2758F-O
-------------------------
+Supermicro A1SRi-2758F-O (Atom C2758)
+-------------------------------------
 
 The Supermicro [A1SRi-2758F-O] is
 [mini-ITX](https://en.wikipedia.org/wiki/Mini-ITX) motherboard
 designed for networking applications (e.g. router, middlebox, etc). It
 features an embedded Intel [Atom C2758] CPU, which is an 8-core, 2.40
 GHz low-power (20W TDP) x86 processor released in 2013. The board
-retailed for around $300 in 2014 when I purchased it.
+retailed for around $300 in 2014 when I purchased it, but can now be
+found used online for ~$200.
 
 
 For the test, this board was coupled with 16GB (2x 8GB) of ECC RAM, a
@@ -101,8 +102,8 @@ a 750W [80 Plus Gold](https://en.wikipedia.org/wiki/80_Plus) (87%+
 efficiency) power supply, and a single SSD. The tests were run on a
 fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25 Linux kernel.
 
-Supermicro A2SDi-TP8F
----------------------
+Supermicro A2SDi-TP8F (Atom C3858)
+----------------------------------
 
 The Supermicro [A2SDi-TP8F] is another mini-ITX motherboard. It's the
 generational successor to the A1SRi-2758F noted above. It includes an
@@ -111,8 +112,66 @@ at 2.00 GHz with a 25W TDP. The C3858 was released in 2017 as one of
 the successors to the C2XXX line. This board retails for about $750
 today.
 
-For the test, this board was coupled with 16GB (2x 8GB) of ECC RAM,
+For the test, this board was coupled with 16GB (2x8GB) of ECC RAM,
 and the same 750W power supply and SSD as the A1SRi-2758F. The tests
 were run on a fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25
 Linux kernel.
+
+Supermicro X9SCM-F (Xeon E3-1240v2)
+-----------------------------------
+
+The Supermicro [X9SCM-F] is a micro-ATX motherboard with an LGA 1155
+CPU socket. For this test it was paired with a circa-2012, 4-core,
+8-thread, 3.40 GHz [Xeon E3-1240v2] x86 CPU (69W TDP). The X9SCM-F is no
+longer in production, but you can find them used for ~$50 online. The
+E3-1240v2 is also an [EoLed] part that can be found online used for
+~$100, bringing the combined motherboard + CPU price of this setup to
+~$150.
+
+For this test, this system was coupled with 16GB (2x8GB) of DDR3 ECC
+RAM and the same power supply and SSD as the A1SRi-2758F. The tests
+were run on a fresh 64-bit install of Ubuntu 18.04.3 with the 5.0.0-25
+Linux kernel.
+
+[EoLed]: https://en.wikipedia.org/wiki/End-of-life_(product)
+
+Supermicro X10SLH-F (Xeon E3-1246v3)
+------------------------------------
+
+The [X10SLH-F] is another micro-ATX motherboard with an LGA 1150 CPU
+socket. For this test it was paired with a circa-2014, 4-core,
+8-thread, 3.50 GHz [Xeon E2-1246v3] x86 CPU (84W TPD). The X10SLH-F can be
+found used for ~$100 online. The E3-1246v3 can be found online for
+~$75, bringing the combined price of this setup to ~$175.
+
+This setup was coupled with 32GB (2x16GB) of ECC RAM and the same
+power supply and SSD as the A1SRi-2758F. The tests were run on a fresh
+64-bit install of Ubuntu 18.04.3 with the 5.0.0-25 Linux kernel.
+
+Supermicro X10SDV-TLN4F (Xeon D-1541)
+-------------------------------------
+
+Look. We get it. Supermicro doesn't have very interesting [naming
+schemes](https://www.supermicro.com/products/Product_Naming_Convention/Naming_MBD_Intel_UP.cfm).
+In any case, the [X10SDV-TLN4F] is a mini-ITX motherboard with an
+embedded [Xeon D-1541] x86 8-core, 16-thread, 2.10 GHz CPU (45W
+TDP). Like the A1SRi-2758F and the A2SDi-TP8F, it's also marketed mainly
+as a network middle box, router, or IoT board.
+
+This setup used a similar 32GB (2x16GB) RAM configuration and the same
+PSU and SSD setup as previous systems. It also was tested using the
+same Ubuntu 18.04.3 install with the 5.0.0-25 kernel.
+
+Supermicro M11SDV-8CT-LN4F (EPYC 3201)
+--------------------------------------
+
+Other than the Raspberry Pi, the [M11SDV-8CT-LN4F] represents the only
+non-Intel offering in this lineup. Instead, the M11SDV-8CT-LN4F is a
+mini-ITX system featuring one of AMD's new, low-power EPYC chips: the
+8-core, 8-thread, 1.50 GHz (boostable to 3.10 GHz), 30W TDP [EPYC
+3201] CPU.
+
+This setup was paired with 32GB (2x 16GB) of ECC RAM and the same PSU
+and SSD as previous systems. It was tested using the same Ubuntu and
+kernel config as previous systems as well.
 
