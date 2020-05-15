@@ -179,6 +179,67 @@ kernel config as previous systems as well.
 The Tests
 =========
 
+Geekbench
+---------
+
+The main test used for this analysis was [Geekbench
+4](https://www.geekbench.com/geekbench4/). Geekbench is an integrated
+system benchmark designed to evaluate comprehensive system
+performance. For the purposes of these tests, I used the CPU benchmark
+that evaluates both single and multi core CPU performance as well as
+memory throughput. For more details on the workloads used by the
+Geekbench 4 CPU tests, see their [white-paper on the
+subject](https://www.geekbench.com/doc/geekbench4-cpu-workloads.pdf).
+
+All tests were run using Geekbench 4.4.1. These tests were all
+completed just before Geekbench 5 was released, so the scores are only
+comparable to other Geekbench 4 scores, not the newer [version
+5](https://www.geekbench.com/blog/2019/09/geekbench-5/) scores.
+
+All scores were posted to the [Geekbench results
+browser](https://browser.geekbench.com/) for public analysis and
+comparison. See links in the results browser links in the results for
+more details. 
+
+Power Measurements
+-----------------
+
+Since the main point of this test was to evaluate the power to
+performance ratio of each of the perspective boards, it was also
+important to measure the power consumption of the devices while they
+were under various load levels. Their are a variety of ways to measure
+power consumption, ranging from fancy (and expensive) laboratory-grade power
+meters to consumer-grade gear. For the purpose of this test, I used a
+simple [Kill-A-Watt P3
+meter](http://www.p3international.com/products/p4400.html). This ~$40
+consumer-grade power meter is mainly designed to measure the power
+usage of home appliances to identify energy-wasting items. But it also
+works okay for our purposes: measure the power consumption at various
+phases of the testing process.
+
+The other trick to measuring power consumption of server gear is that
+such power consumption is not constant. Modern processors having
+aggressive power saving features built into them. These features
+disable part so the process (including entire corers) and lower the
+clock-rate of other parts of the processor when not in use to conserve
+energy. As such, the power consumption of an idle system is
+significantly lower than the power consumption of a running system. In
+order to capture some notion of this nuance, I measured the power
+consumption of each system at various points in the testing process:
+
+* **Idle Power:** A power measurement taken before the test was run when
+   the system was sitting idle with no significant background processes
+   running.
+* **Max Single-Core Power:** The maximum power reading seen during the
+   single-core benchmark test.
+* **Max Multi-Core Power:** The maximum power reading seen during the
+   multi-core benchmark test.
+   
+Ideally, these tests would also measure the total energy consumption
+over the course of the test. But unfortunately, doing that requires more
+advanced gear to coordinate the measurement period with the test run,
+so for now, we'll need to settle for my rudimentary idle and max
+consumption measurements.
 
 The Results
 ===========
