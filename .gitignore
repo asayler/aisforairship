@@ -1,9 +1,7 @@
 # Editor Cruft
 *~
 
-# Jekyll Cruft
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Hugo Cruft
+.hugo_build.lock
+/public
+/resources
