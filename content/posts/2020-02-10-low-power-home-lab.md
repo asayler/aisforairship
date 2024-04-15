@@ -1,8 +1,8 @@
----
-layout: single
-author_profile: true
-toc: true
----
++++
+title = 'Low Power Home Lab'
+date = 2020-02-10T03:03:03-07:00
+draft = true
++++
 
 Like many folks who make bad life decisions, I operate a [home
 lab](https://www.reddit.com/r/homelab/) filled with server and network
