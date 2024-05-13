@@ -254,7 +254,7 @@ car manufactures will start to support this capability soon.
 In the meantime, I'd still like to be able to tap my car's single 15A
 outlet to augment my home batteries during future outages. As noted
 above, we actually did this during this outage by running an extension
-cord from the car to the Kitchen to cover our induction cook-top needs
+cord from the car to the kitchen to cover our induction cook-top needs
 (the battery backup system doesn't actually power any circuits in the
 kitchen, so we'd have to run an extension cord either way). To make
 this simpler in the future, I installed a manual transfer switch (like
@@ -307,8 +307,8 @@ together, to total cost of the system was about $34K, and that's
 without adjusting for that past few years of inflation. That's not a
 realistic cost to impose on the average homeowner. Hopefully we'll see
 costs come down over time, and if we are able to start to leverage the
-EVs more and more folks already own for home backup, that will help
-defray the cost quite a bit.
+EVs folks already own for home backup, that will help defray the cost
+quite a bit.
 
 _(As an aside, if you're looking for a great, small solar installer
 that won't roll their eyes at you when you ask to hook up the
@@ -322,9 +322,9 @@ Xcel to invest further in burying power lines to ensure power can
 remain on even in high wind events. We need telecom companies to build
 their systems to withstand multi-day power outages. We need to ensure
 people and businesses with essential power needs (medical devices,
-hospitals, grocery stores, etc) have affordable access to backup
-systems that can sustain them through multi-day outages. And we need
-local governments to invest to backup systems for public spaces like
+hospitals, food storage, etc) have affordable access to backup systems
+that can sustain them through multi-day outages. And we need local
+governments to invest to backup systems for public spaces like
 libraries and recreation centers so folks have places to go that
 retains power and Internet access even during extended utility
 outages.
