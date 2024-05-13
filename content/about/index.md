@@ -1,6 +1,5 @@
 ---
-title: About
-featured_image: ''
+title: "About"
 omit_header_text: true
 description: "About ths site"
 type: page
