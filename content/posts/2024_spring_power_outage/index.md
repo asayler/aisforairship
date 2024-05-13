@@ -5,7 +5,7 @@ draft = false
 +++
 
 On the afternoon of Saturday, April 6th, 2024, at 12:51 PM, I (and a
-good chunk of Boulder's other resident) received the following email
+good chunk of Boulder's other residents) received the following email
 from Xcel, our local power company:
 
 > ## Public Safety Power Outages Planned for Your Area
@@ -37,7 +37,7 @@ Boulder.
 
 As someone who does risk management for a living, I have, shall we
 say, some prepper-adjacent tendencies. Not the kind that leads one to
-stockpile an arsenal of Kalashnikovs in the basemen. More the kind
+stockpile an arsenal of Kalashnikovs in the basement. More the kind
 with a well-stocked pantry, enough water for a week, and food canning
 skills that would make a tradwife influencer blush.
 
@@ -82,7 +82,7 @@ Our battery systems serves two main purposes:
 ![Electrical sub-panel with backup circuits](images/backup_subpanel.jpg)
 
 This is the sub-panel with our backed-up circuits. In normal
-operation, The backup circuits draw a baseline load of about 600W --
+operation, the backup circuits draw a baseline load of about 600W --
 mainly from the fridge (~100W) and a slightly-abnormal amount of
 always-on home network and computer gear (~500W).
 
@@ -166,7 +166,7 @@ image below. The upper graph shows power output at the inverter and
 both the batteries. The lower graph shows the state of charge of each
 battery. The red vertical lines indicate when the power was cut and
 restored by Xcel. The yellow rectangles show the periods we were
-running off solar power alone. The reminder of the graph is when we
+running off solar power alone. The remainder of the graph is when we
 were running off battery power. Positive inverter power shows when
 power is flowing from the batteries or solar panels to the house or
 grid. Negative inverter power is when the batteries are being charged
@@ -204,7 +204,7 @@ around 6PM on Sunday, vs the 60% we had used the night before. I have
 an email out to my solar installer inquiring about this issue.
 
 At 7:30 PM on Sunday Xcel restored our power. The system immediately
-started powering the full house again and begins to charge Battery 2
+started powering the full house again and began to charge Battery 2
 from the grid. Normally the batteries are programmed to only charge
 from solar, but since the Weather Guard event is still active, the
 system charges them from the grid in an attempt to return both
@@ -277,15 +277,15 @@ in their upstream equipment died. It seems neither Comcast nor
 CenutryLink were prepared for a 28-hour power outage either...
 
 Fortunately, we kept cellular service throughout the outage. There
-were neighborhoods nearby that retained power, and presumabaly they
-included powered cell towers that could serve our neighborhood as
-well. But if this had been a larger or longer outage, it's possible
-the cellular networks would have gone down as well. Everything needs
-power to operate. The simultaneous loss of cable, telephone/DSL, and
-cellular capabilities during an extended power outage would have major
-public safety implications (e.g. no ability to call 911). I hope the
-telecom companies are learning their lesson here as well and upgrading
-their systems to remain powered during future outages of this nature.
+were neighborhoods nearby that retained power, and they included
+powered cell towers that could serve our neighborhood as well. But if
+this had been a larger or longer outage, it's possible the cellular
+networks would have gone down as well. Everything needs power to
+operate. The simultaneous loss of cable, telephone/DSL, and cellular
+capabilities during an extended power outage would have major public
+safety implications (e.g. no ability to call 911). I hope the telecom
+companies are learning their lesson here as well and upgrading their
+systems to remain powered during future outages of this nature.
 
 # What's next?
 
