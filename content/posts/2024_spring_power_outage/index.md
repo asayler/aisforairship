@@ -2,11 +2,17 @@
 title = "The 2024 Boulder Public Safety Power Shutoff"
 date = 2024-05-12T23:03:03-06:00
 draft = false
+summary = """
+What happens when the local electrical company cuts your city's power
+for two days with a few hours notice to reduce the risk of wildfire?
+How we survived the Great Xcel Public Safety Power Shutdown of 2024
+on batteries and solar.
+"""
 +++
 
 On the afternoon of Saturday, April 6th, 2024, at 12:51 PM, I (and a
-good chunk of Boulder's other residents) received the following email
-from Xcel, our local power company:
+good chunk of Boulder, Colorado's other residents) received the
+following email from Xcel, our local power company:
 
 > ## Public Safety Power Outages Planned for Your Area
 > 
@@ -22,12 +28,17 @@ from Xcel, our local power company:
 > afternoon, extending until at least noon Sunday, April 7, though
 > outages are likely to persist beyond that timeframe.
 
-While these sort of thing has been happening for some time now in
-[places like California](https://www.cpuc.ca.gov/psps/), it's a new
-phenomenon in our state of Colorado. In fact, this was the first time
-a power company in Colorado initiated such a "Public Safety Power
-Shutoff" (abbreviated "PSPS", which I can only assume is pronounced
-like you're talking to a cat).
+Facing a weekend wind storm with hurricane-force gust forecasts, the
+power company had decided to shut down the power grid to try to
+reduce he risk of unmoored transmission lines leading to a wildfire
+(as infamously happened down the road from us in [December of
+2021](https://en.wikipedia.org/wiki/Marshall_Fire)). While this sort
+of thing has been happening for some time in [places like
+California](https://www.cpuc.ca.gov/psps/) it's new phenomenon in our
+fair state of Colorado. In fact, this was the first time a power
+company in Colorado initiated such a "Public Safety Power Shutoff"
+(abbreviated "PSPS", which I can only assume is pronounced like you're
+talking to a cat).
 
 And thus began our foray into what would ultimately be a 28 hour power
 outage -- the longest I've experienced in ~13 years of living in
@@ -312,7 +323,7 @@ quite a bit.
 
 _(As an aside, if you're looking for a great, small solar installer
 that won't roll their eyes at you when you ask to hook up the
-inveter's Ethernet connection to access its modbus interface so you
+inverter's Ethernet connection to access its modbus interface so you
 can produce graphs like those shown above, check out [Buglet
 Solar](https://bugletsolar.com/) who did all of our work.)_
 
