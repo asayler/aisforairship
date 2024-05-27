@@ -15,7 +15,7 @@ enableRobotsTXT = true
 
 [params]
   text_color = ""
-  author = ""
+  author = "[Andy Sayler](https://andysayler.com)"
   favicon = "favicon.ico"
   site_logo = ""
   description = "An Engineer's Blog"
