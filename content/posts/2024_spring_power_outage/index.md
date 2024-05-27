@@ -2,6 +2,7 @@
 title = "The 2024 Boulder Public Safety Power Shutoff"
 date = 2024-05-12T23:03:03-06:00
 draft = false
+show_reading_time = true
 summary = """
 What happens when the local electrical company cuts your city's power
 for two days with a few hours notice to reduce the risk of wildfire?
