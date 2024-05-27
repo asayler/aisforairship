@@ -16,3 +16,6 @@ By [Andy Sayler](https://www.andysayler.com)
 # Build
 1. `$ rm -rf ./public`
 2. `$ HUGO_ENV=production hugo`
+
+# Update Theme
+1. `$ hugo mod get -u`
