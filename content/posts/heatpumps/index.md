@@ -282,9 +282,18 @@ throughout this process:
   where the cool air can then make its way downstairs is a lot more
   effective than trying to use the central air handler to pump cold
   air for the basement to the second floor.
+* Heat pumps introduce as additional resiliency concern: you are now
+  dependent on electricity to heat your home (although that also tends
+  to be true of a furnace). We're exploring adding a wood stove as an
+  emergency backup heat source to help provide protections against
+  [extended power outages](/posts/2024_spring_power_outage/).
 
-Air-source heat pumps have reached the point where they are a feasible
-means of heating and cooling homes in most regions of the United
-States, even without augmenting them with electrical resistance backups
-or using a hybrid system. If you're looking to replace an existing
-fossil-fuel based HVAC system, they're worth a look.
+Heat pumps are a technology that provide both climate prevention (they
+help reduce fossil fuel usage) and adaptation (they help cool homes as
+temperatures rise). They also have the nice property that, at least in
+cold-weather regions, they will become more efficient as the climate
+warms. But even without additional warming, air-source heat pumps have
+reached the point where they are a feasible means of heating and
+cooling homes in most regions of the United States. If you're looking
+to replace an existing fossil-fuel based HVAC system, they're worth a
+look.
