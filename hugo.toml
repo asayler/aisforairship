@@ -1,10 +1,10 @@
 baseURL = "https://aisforairship.com"
 languageCode = "en-us"
 title = "A is for Airship"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
 
 SectionPagesMenu = "main"
-Paginate = 10
+pagination.pagerSize = 10
 googleAnalytics = "G-5HQ6HBDZYJ"
 enableRobotsTXT = true
 

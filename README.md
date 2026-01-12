@@ -17,5 +17,11 @@ By [Andy Sayler](https://www.andysayler.com)
 1. `$ rm -rf ./public`
 2. `$ HUGO_ENV=production hugo`
 
+# Install or Update hugo
+1. Download latest `hugo_extended_VERSION_linux-amd64.tar.gz` from https://github.com/gohugoio/hugo/releases/
+2. `$ tar -xvf hugo_extended_VERSION_linux-amd64.tar.gz`
+3. `$ mv hugo ~/bin/`
+
 # Update Theme
-1. `$ hugo mod get -u`
+1. `$ hugo mod get -u ./...`
+
