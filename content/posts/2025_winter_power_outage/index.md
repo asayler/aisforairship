@@ -21,12 +21,12 @@ a combination of dry weather and high winds led to not one, but two,
 public safety power shutoffs the week of Monday, December 15th, 2025.
 In total, these outages led to over 57 hours without power over the
 course of four days. Since then, we kicked off 2026 with yet another
-PSPS -- this time a five hour shutoff the afternoon and evening on
+PSPS -- this time a five hour shutoff the afternoon and evening of
 Saturday, March 24th.
 
 I [previously wrote](/posts/2024_spring_power_outage/) about our
-experience during the 2024 outage. Revisit that post for details, but
-in short -- our home is equipped with ~6.5 kW of solar capacity and
+experience during the 2024 outage. Revisit that post for details.
+In short -- our home is equipped with ~6.5 kW of solar capacity and
 ~20 kWh of battery capacity. We pull a base load of 500-750W, composed
 mostly of the fridge, lighting, and a silly amount of computer and
 network gear. Assuming we get some sun each day and can keep our load
@@ -62,7 +62,7 @@ email sent Wednesday morning moved the start time of the shutoff up
 two hours to 10AM to account for the wind starting earlier than
 expected.
 
-Here's the outage timelines (rounded to nearest 5 minute interval).
+Here are the outage timelines (rounded to nearest 5 minute interval).
 
 ## First Outage
 
@@ -112,33 +112,33 @@ So how'd we do?
 In general, we fared pretty well for a combined total of 57 hours
 without power within a 96 hour period (in the computer business, we'd
 say Xcel had an uptime of <60%). Overall, we were only without power
-for ~2 hours across both outages -- both in the early morning between
-when the batteries died and before the sun was high enough to power
-the house.
+for a few limited periods across both outages -- both in the early
+morning between when the batteries died and before the sun was high
+enough to power the house.
 
 But a picture is worth a thousand words. Here is the first outage:
 
 [![First Power Outage](images/ha_first_outage_annotated.png)](images/ha_first_outage_annotated.png)
 
-* From when Xcel shuts off the grid around 10:00 AM on 2025-12-17
-  until around 3:30 PM that afternoon, we are running off solar. The
-  batteries stay fully charged.
-* From 3:30 PM on the 17th through about 7:15 AM the next morning, we
-  run off our two batteries. The first battery hits its 15% lower limit
-  around 11 PM at which point the system switches over the second
-  battery.
-* Around 7:15 AM on the 18th, the second battery hits the 15% lower limit
-  and we lose power. The power is out for about 40 minutes until the sun
-  is up enough at 7:55 AM to start powering the house again.
-* From 7:55 AM until the outage ends at 12:35, the house runs off solar.
-  Despite it being overcast, there's still spare solar capacity and this
-  is used to recharge the first battery. The first battery finishes recharging
-  around Noon just before the power is restored at 12:35.[^1]
-* Once grid power comes back at 12:35, the second battery recharges from the
-  grid. Normally the batteries are only programmed to charge from solar, but
-  when the system detects a storm that might lead to outages, it switches into
-  "Weather Guard" mode where it will keep the batteries fully charged,
-  including recharging them from grid power when necessary.
+1. From when Xcel shuts off the grid around 10:00 AM on 2025-12-17
+   until around 3:30 PM that afternoon, we are running off solar. The
+   batteries stay fully charged.
+2. From 3:30 PM on the 17th through about 7:15 AM the next morning, we
+   run off our two batteries. The first battery hits its 15% lower limit
+   around 11 PM at which point the system switches over the second
+   battery.
+3. Around 7:15 AM on the 18th, the second battery hits the 15% lower limit
+   and we lose power. The power is out for about 40 minutes until the sun
+   is up enough at 7:55 AM to start powering the house again.
+4. From 7:55 AM until the outage ends at 12:35, the house runs off solar.
+   Despite it being overcast, there's still spare solar capacity and this
+   is used to recharge the first battery. The first battery finishes recharging
+   around Noon just before the power is restored at 12:35.[^1]
+5. Once grid power comes back at 12:35, the second battery recharges from the
+   grid. Normally the batteries are only programmed to charge from solar, but
+   when the system detects a storm that might lead to outages, it switches into
+   "Weather Guard" mode where it will keep the batteries fully charged,
+   including recharging them from grid power when necessary.
 
 [^1]: The second battery should have started recharging off spare
 solar at Noon when the first battery finished. There seems to be a
@@ -149,24 +149,31 @@ And here's the second outage:
 
 [![Second Power Outage](images/ha_second_outage_annotated.png)](images/ha_second_outage_annotated.png)
 
-* From when the outage starts around 5:55 AM on 2025-12-19 until 9:45
-  AM, the system is running off battery power, discharging one battery
-  to ~65%.
-* From 9:45 AM through 3:45 PM, the system runs off solar power,
-  recharging the discharged battery to 100%
-* From 3:45 PM through 7:50 AM the next morning, we run off
-  battery power. Around midnight we switch from one battery
-  to the other as the first hits the 15% minimum.
-* Around 7:50 AM, both batteries are depleted to 15%.
-  We lose power for about 1.5 hours until 9:20 AM when the sun
-  is up enough to start powering us again.
-* It's overcast so the solar is not consistent.
-  And the batteries are still drained. As a result,
-  from 9:20 AM through around 11:00 AM, the house power cycles
-  as the sun comes and goes.
-* From around 11:00 AM through when the grid comes back at
-  around 2:05 PM, we run off solar. One battery recharges
-  intermittently during this time as spare solar is available.
+1. From when the outage starts around 5:55 AM on 2025-12-19 until 9:45
+   AM, the system is running off battery power, discharging one battery
+   to ~65%.
+2. From 9:45 AM through 3:45 PM, the system runs off solar power,
+   recharging the discharged battery to 100%
+3. From 3:45 PM through 7:50 AM the next morning, we run off
+   battery power. Around midnight we switch from one battery
+   to the other as the first hits the 15% minimum.
+4. Around 7:50 AM, both batteries are depleted to 15%.
+   We lose power for about 1.5 hours until 9:20 AM when the sun
+   is up enough to start powering us again.
+5. It's overcast so the solar is not consistent.
+   And the batteries are still drained. As a result,
+   from 9:20 AM through around 11:00 AM, the house power cycles
+   as the sun comes and goes.
+6. From around 11:00 AM through when the grid comes back at
+   around 2:05 PM, we run off solar. One battery recharges
+   intermittently during this time as spare solar is available.
+
+Overall, we made it 57 hours of outages with only around 3 hours of
+downtime. Not bad for the least sunny time of year, and with cloud
+cover nonetheless.
+
+# The 2026 Shut Down
+
 
 
 [//]: # https://coloradosun.com/2025/12/17/xcel-public-safety-power-outages-wednesday/
